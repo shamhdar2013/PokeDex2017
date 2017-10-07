@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF1214371F7B0B25006A9CCB /* RSPokemonEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1214361F7B0B25006A9CCB /* RSPokemonEntity.m */; };
+		DF3946B91F6083860061B693 /* RSPokeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3946B71F6083860061B693 /* RSPokeTableViewCell.m */; };
+		DF3946BA1F6083860061B693 /* RSPokeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF3946B81F6083860061B693 /* RSPokeTableViewCell.xib */; };
+		DF3946BD1F608A420061B693 /* RSDataProviderAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3946BC1F608A420061B693 /* RSDataProviderAPI.m */; };
+		DF3946C01F60AFDD0061B693 /* RSPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3946BF1F60AFDD0061B693 /* RSPokemon.m */; };
+		DF3946C31F60B3C90061B693 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3946C21F60B3C90061B693 /* UIKit.framework */; };
+		DF3946C51F60BDBA0061B693 /* Butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3946C41F60BDBA0061B693 /* Butterfly.png */; };
+		DFCE904C1F630906003F99F3 /* RSCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE904B1F630906003F99F3 /* RSCoreDataController.m */; };
+		DFCE904F1F647A07003F99F3 /* RSPokeSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE904E1F647A07003F99F3 /* RSPokeSearchResultsViewController.m */; };
 		DFD777DF1F5F86F400020422 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD777DE1F5F86F400020422 /* main.m */; };
 		DFD777E21F5F86F400020422 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD777E11F5F86F400020422 /* AppDelegate.m */; };
 		DFD777E51F5F86F400020422 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD777E41F5F86F400020422 /* ViewController.m */; };
@@ -36,6 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF1214351F7B0B25006A9CCB /* RSPokemonEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPokemonEntity.h; sourceTree = "<group>"; };
+		DF1214361F7B0B25006A9CCB /* RSPokemonEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPokemonEntity.m; sourceTree = "<group>"; };
+		DF3946B61F6083860061B693 /* RSPokeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPokeTableViewCell.h; sourceTree = "<group>"; };
+		DF3946B71F6083860061B693 /* RSPokeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPokeTableViewCell.m; sourceTree = "<group>"; };
+		DF3946B81F6083860061B693 /* RSPokeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSPokeTableViewCell.xib; sourceTree = "<group>"; };
+		DF3946BB1F608A420061B693 /* RSDataProviderAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDataProviderAPI.h; sourceTree = "<group>"; };
+		DF3946BC1F608A420061B693 /* RSDataProviderAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDataProviderAPI.m; sourceTree = "<group>"; };
+		DF3946BE1F60AFDD0061B693 /* RSPokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPokemon.h; sourceTree = "<group>"; };
+		DF3946BF1F60AFDD0061B693 /* RSPokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPokemon.m; sourceTree = "<group>"; };
+		DF3946C21F60B3C90061B693 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF3946C41F60BDBA0061B693 /* Butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Butterfly.png; sourceTree = "<group>"; };
+		DFCE904A1F630906003F99F3 /* RSCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCoreDataController.h; sourceTree = "<group>"; };
+		DFCE904B1F630906003F99F3 /* RSCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCoreDataController.m; sourceTree = "<group>"; };
+		DFCE904D1F647A07003F99F3 /* RSPokeSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPokeSearchResultsViewController.h; sourceTree = "<group>"; };
+		DFCE904E1F647A07003F99F3 /* RSPokeSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPokeSearchResultsViewController.m; sourceTree = "<group>"; };
 		DFD777DA1F5F86F400020422 /* RSPokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSPokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD777DE1F5F86F400020422 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFD777E01F5F86F400020422 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3946C31F60B3C90061B693 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF3946C11F60B3C90061B693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF3946C21F60B3C90061B693 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFD777D11F5F86F300020422 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +120,7 @@
 				DFD777F91F5F86F400020422 /* RSPokedexTests */,
 				DFD778041F5F86F400020422 /* RSPokedexUITests */,
 				DFD777DB1F5F86F400020422 /* Products */,
+				DF3946C11F60B3C90061B693 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +137,7 @@
 		DFD777DC1F5F86F400020422 /* RSPokedex */ = {
 			isa = PBXGroup;
 			children = (
+				DF3946C41F60BDBA0061B693 /* Butterfly.png */,
 				DFD777E01F5F86F400020422 /* AppDelegate.h */,
 				DFD777E11F5F86F400020422 /* AppDelegate.m */,
 				DFD777E31F5F86F400020422 /* ViewController.h */,
@@ -113,6 +148,19 @@
 				DFD777F11F5F86F400020422 /* Info.plist */,
 				DFD777E91F5F86F400020422 /* RSPokedex.xcdatamodeld */,
 				DFD777DD1F5F86F400020422 /* Supporting Files */,
+				DF3946B61F6083860061B693 /* RSPokeTableViewCell.h */,
+				DF3946B71F6083860061B693 /* RSPokeTableViewCell.m */,
+				DF3946B81F6083860061B693 /* RSPokeTableViewCell.xib */,
+				DF3946BB1F608A420061B693 /* RSDataProviderAPI.h */,
+				DF3946BC1F608A420061B693 /* RSDataProviderAPI.m */,
+				DF3946BE1F60AFDD0061B693 /* RSPokemon.h */,
+				DF3946BF1F60AFDD0061B693 /* RSPokemon.m */,
+				DFCE904A1F630906003F99F3 /* RSCoreDataController.h */,
+				DFCE904B1F630906003F99F3 /* RSCoreDataController.m */,
+				DFCE904D1F647A07003F99F3 /* RSPokeSearchResultsViewController.h */,
+				DFCE904E1F647A07003F99F3 /* RSPokeSearchResultsViewController.m */,
+				DF1214351F7B0B25006A9CCB /* RSPokemonEntity.h */,
+				DF1214361F7B0B25006A9CCB /* RSPokemonEntity.m */,
 			);
 			path = RSPokedex;
 			sourceTree = "<group>";
@@ -255,6 +303,8 @@
 				DFD777F01F5F86F400020422 /* LaunchScreen.storyboard in Resources */,
 				DFD777ED1F5F86F400020422 /* Assets.xcassets in Resources */,
 				DFD777E81F5F86F400020422 /* Main.storyboard in Resources */,
+				DF3946BA1F6083860061B693 /* RSPokeTableViewCell.xib in Resources */,
+				DF3946C51F60BDBA0061B693 /* Butterfly.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +331,14 @@
 			files = (
 				DFD777E51F5F86F400020422 /* ViewController.m in Sources */,
 				DFD777E21F5F86F400020422 /* AppDelegate.m in Sources */,
+				DF3946C01F60AFDD0061B693 /* RSPokemon.m in Sources */,
+				DF3946BD1F608A420061B693 /* RSDataProviderAPI.m in Sources */,
 				DFD777DF1F5F86F400020422 /* main.m in Sources */,
+				DF1214371F7B0B25006A9CCB /* RSPokemonEntity.m in Sources */,
+				DFCE904C1F630906003F99F3 /* RSCoreDataController.m in Sources */,
 				DFD777EB1F5F86F400020422 /* RSPokedex.xcdatamodeld in Sources */,
+				DFCE904F1F647A07003F99F3 /* RSPokeSearchResultsViewController.m in Sources */,
+				DF3946B91F6083860061B693 /* RSPokeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +491,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UA2WZ4PLLC;
 				INFOPLIST_FILE = RSPokedex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.viv.RSPokedex;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -447,8 +504,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UA2WZ4PLLC;
 				INFOPLIST_FILE = RSPokedex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.viv.RSPokedex;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radhika.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -522,6 +580,7 @@
 				DFD7780C1F5F86F400020422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFD7780D1F5F86F400020422 /* Build configuration list for PBXNativeTarget "RSPokedexTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +589,7 @@
 				DFD7780F1F5F86F400020422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFD778101F5F86F400020422 /* Build configuration list for PBXNativeTarget "RSPokedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +598,7 @@
 				DFD778121F5F86F400020422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

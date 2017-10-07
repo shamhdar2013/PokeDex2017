@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITabBarDelegate>
+
+
+@property (nonatomic, weak) IBOutlet UITableView *pokeTable;
+@property (nonatomic, weak) IBOutlet UITabBarItem *searchButton;
+@property (nonatomic, weak) IBOutlet UILabel *titleLbl;
+
 
 
 @end
